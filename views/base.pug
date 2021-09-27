@@ -1,0 +1,24 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Dance Academy
+    block scripts
+      
+    block style 
+  body
+    nav#navbar 
+      ul
+       div#logo 
+        img(src="/static/img/1.png")
+        |Dance Academy
+       li #[a(href="/") Home]
+       li #[a(href="/") About]
+       li #[a(href="/") Services]
+       li #[a(href="/") ClassInfo] 
+       li #[a(href="/contact") ContactUs]
+    block content
+
+    footer#footer 
+      |   Copyright © 2021 Danceacademy.com | All right reserved.
+      

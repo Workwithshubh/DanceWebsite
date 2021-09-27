@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -10px 30px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: rgb(187, 44, 56);
+    padding: 13px 4px;
+    font-family: 'Azeret Mono', monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    height: 300px;
+    background-color: red;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    font-family: 'Azeret Mono', monospace;
+    font-size: 30px;
+    flex-direction: column;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introSection div.small{
+    font-size: 25px;
+    padding: 10px;
+}
+
+#missionSection{
+    height: 300px;
+    width: 85%;
+    margin: auto;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Azeret Mono', monospace;
+}
+.card{
+    height: 165px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 26%;
+    margin: 33px 42px;
+    display: inline-block;
+    background-color: rgb(243, 211, 183);
+}
+.card h3{
+    text-align: center;
+    padding: 3px;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img {
+    height: 100px;
+    padding: 0 14px;  
+      margin: 14px 14px;
+
+}
+.card-img img{
+    height: inherit;
+
+}
+.card-content{
+    padding: 0 1px;
+}
+.card-content p{
+    font-size: 16px;
+}
+#sponserSection{
+    height: 300px;
+    background-color: rgba(163, 108, 138, 0.863);
+}
+
+#sponserSection h2{
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Azeret Mono', monospace;
+}
+#sponsers{
+    height: 235px;
+    max-width: 1000px;
+    margin: -5px 250px;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    font-size: 20px;
+    color: lightcyan;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
